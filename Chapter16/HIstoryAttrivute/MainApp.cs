@@ -28,11 +28,13 @@ namespace HIstoryAttrivute
 
     [History("Sean",version = 0.1, changes = "2020-11-23 Created class stub")]
     [History("KHH", version = 0.2, changes = "2020-11-23 Added Func() Method")]
+    [History("KHH2", version = 0.3, changes = "2020-11-23 Modify Func() Method")]
     class MyClass
     {
         public void Func()
         {
             Console.WriteLine("Func()");
+            Console.WriteLine("modify in Desktop ");
         }
     }
     class MainApp
